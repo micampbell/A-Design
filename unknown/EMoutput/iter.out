@@ -1,0 +1,1146 @@
+Population = 100.
+No. of Iterations = 75.
+
+Random Seed is #S(RANDOM-STATE :MTI 124
+                               :FIXSEED
+                               #(3254816895 3149494041 974590193 2432027780
+                                 4024484452 1583072274 3709070973 654182423
+                                 3470587558 1411138581 3062283305 4231968651
+                                 3723788688 3236975275 2361239067 287652475
+                                 2562448666 3289167400 4052048934 289234545
+                                 4179817959 1282270612 289420729 1581576623
+                                 109987657 340506700 3747523439 1523759618
+                                 693592579 995688279 2661424919 821720167
+                                 2465718266 3201942132 386066541 2537683544
+                                 2359179225 4100497018 2285569898 2697726547
+                                 3339727111 3923342771 3943381313 1984488065
+                                 2621479913 2465362229 3944101298 1087140662
+                                 2437206282 1524203675 2280579237 387381541
+                                 4071437757 1379598912 2010683901 3116382617
+                                 3792254305 212637899 2653801163 3795159758
+                                 2726012349 1241216333 2404701512 3319258974
+                                 2401068077 889160454 2030144256 4228419445
+                                 3844039355 4135500828 4174114475 674376819
+                                 285578577 3776398365 1622997816 3980868343
+                                 2500224000 53199557 1748369100 4259192819
+                                 3514817057 3550008296 500582017 615296587
+                                 4172545270 4272634371 3490573234 3213103829
+                                 1190333129 500813535 2935155133 3362037235
+                                 2765959002 1056051082 1399513833 2707724266
+                                 1566965006 2847557143 2552095744 3041178653
+                                 1894812028 666406606 4233606826 2779146329
+                                 1094303105 1866026874 365805946 3085594536
+                                 3337903338 660016504 3264094189 3967806892
+                                 2724158471 1692802482 3925839414 4278748552
+                                 2060630523 2311552162 3950065768 3692146332
+                                 2375974090 204497541 906107271 4219174694
+                                 181266268 208634228 3346200670 367288760
+                                 3081413804 3135231187 3278755538 3443504302
+                                 757698660 4215608207 1510668678 398267502
+                                 2921120982 2619079046 2900352243 4030557009
+                                 873482808 1447012179 90804356 2163046783
+                                 4141513938 1626971905 1251799069 3273625208
+                                 1044102308 663857846 3637427931 1959932732
+                                 319855200 2310146733 246104591 925151671
+                                 1271389069 1587558264 3394477690 3905515946
+                                 3568364331 29429667 184865783 3898551367
+                                 140738646 2812238615 3134424053 2054259318
+                                 2139871648 837232462 2439488846 3662793016
+                                 701844491 1175156778 3135270981 2147486844
+                                 1686542698 2361105305 4225557343 1268129357
+                                 4091881515 2674260193 1703035259 3253354598
+                                 1743563346 837175339 74191748 2331757254
+                                 3180983061 1347431756 3840578177 3349382625
+                                 3555531652 3753096511 3778123258 4054598833
+                                 4269902866 1201671600 1486801374 3567632002
+                                 3440360136 3097660652 4262600427 4022924347
+                                 55592021 1271201096 1352066614 3307852909
+                                 2449243208 271873610 2213930778 4158459804
+                                 461878835 278225645 2284364835 3231952395
+                                 3519166354 382805987 3733687139 2701393276
+                                 11684238 4243538753 213984610 3831022764
+                                 222246192 3958236167 3616787906 3222873268
+                                 2653544234 3766894449 1099686068 3643142892
+                                 2124053676 4061137824 107882431 3999150334
+                                 3952712929 3474554190 425852163 1133539333
+                                 1516991821 806848970 2724552250 2719534539
+                                 2416347619 3701395 3545841276 418420062
+                                 2230053971 4254926822 952932882 2440711045
+                                 4029669042 2359743435 1930865628 600239754
+                                 2277773347 1945526741 3000681427 1213549823
+                                 1644882974 2500195762 3578067516 4213046856
+                                 3937388342 2936009642 662905846 381958805
+                                 1431752832 2003536518 2835130228 1431571318
+                                 894010299 447538645 4242473114 428848819
+                                 79589131 2040196893 1924209850 3332521860
+                                 3476633036 3537582001 207686926 4110727938
+                                 1482380511 3570001536 2573178345 364857675
+                                 1346612099 753609420 1485620306 4039161497
+                                 2504379567 1702446470 1134941001 2455991197
+                                 3871484174 4254191896 3276923693 2416364517
+                                 2464004849 748242833 1184498706 2112990361
+                                 2784240845 4263389361 630316031 3428792580
+                                 547998021 11582236 2281064017 1581742639
+                                 605591867 337887773 2618822833 626332639
+                                 2923209273 3435565030 3109056982 1718654754
+                                 3649941746 463028143 3137233221 1264729175
+                                 4184758516 3767435966 2552043410 1095541064
+                                 2031308104 3894090814 3119751386 4012491600
+                                 4208626087 4286490468 610949889 3050035180
+                                 2320653485 2527515818 673985273 3948707070
+                                 8754041 2403216189 2835059887 1527536267
+                                 334949870 31516143 3501659024 1035495455
+                                 3490280527 3365075178 31281335 3067212082
+                                 1104144488 211996498 3513041475 2113840220
+                                 1396867911 1276916678 261645720 2410522537
+                                 2221220212 1737306250 1801997120 3063217005
+                                 3665117068 2860316387 826458799 1035330270
+                                 1211659597 2952448281 478535987 3533767871
+                                 1675183435 864184142 3540052726 1926776740
+                                 3551506800 2530743814 295269868 1584155141
+                                 1734180356 1181367538 2156727233 2089197398
+                                 1060266204 122319801 781515335 1518639522
+                                 3250698366 2165375416 1826047557 3782069385
+                                 1149729327 743243271 3006855343 4278783190
+                                 1782522055 1917911638 1734454070 3750292744
+                                 888178676 2388652004 3307266381 1359634586
+                                 4100367421 4241724417 72286993 1320147003
+                                 1682057257 211102515 1654706394 75654159
+                                 1319029726 4019729162 1816880675 1884313754
+                                 3456273946 1452019868 182072310 1574403801
+                                 3687047592 1867160410 3502754773 3140583085
+                                 3715038503 2655245479 923622639 1470539580
+                                 4099185183 1027477584 2909309398 3925150763
+                                 835198086 1444649358 3077737176 681697855
+                                 3774079666 311667563 4090164038 2691002061
+                                 1778887082 1570533532 333900479 3902544021
+                                 2024174185 3571810716 1780375861 2809931930
+                                 2518946611 2840515630 3973403550 1496864535
+                                 1784180303 3232948338 1675504737 2753149767
+                                 2386832440 2406843035 3533764497 3348784247
+                                 3312903625 1970563090 2236546784 747242739
+                                 782584534 188537344 3044721304 1498361203
+                                 3095558501 2968770427 2995975679 3618570209
+                                 3632938586 2803058469 2977744992 1475350602
+                                 2628045031 1860859581 4040372135 741323380
+                                 3403251418 1202190341 2662202143 1320972630
+                                 312499996 393209746 1333134770 3321806459
+                                 3296333898 2220520550 2275328358 3728032901
+                                 3996888883 2121959202 1349485191 876361519
+                                 452529220 2690855541 2006503608 119123219
+                                 1073904127 3300053923 1599743379 911094058
+                                 3674073240 1662448677 2415843878 1562086253
+                                 693992314 388950233 4235247557 2440429805
+                                 1822121259 1531770548 3404469195 1092040357
+                                 175303194 2490831235 3811031573 2121682663
+                                 2034871890 1972960771 2534366765 3135910811
+                                 3724703205 3893725947 3591686271 1524405095
+                                 814479748 1263567435 1748872312 2722487839
+                                 176395298 3337231697 1041086317 3450573467
+                                 538255525 3035376282 3438847314 3795082592
+                                 4047931738 2509753022 2380408527 3431673160
+                                 2129014905 2311563698 3360634178 2028653229
+                                 2486121073 3585706506 701859807 2322044907
+                                 4269544964 1566668233 2223943575 705494415
+                                 3526857992 680445013 2022613920 3272000172
+                                 841443415 3236929674 2997184358 3553232039
+                                 1109846864 755968884 2662129143 3808581571
+                                 2599565925 2756271107 3881807111 866572349
+                                 1114454278 606338308 3760696360 2713715480
+                                 461275717 3429429347 2306574795 1793650142
+                                 2929219712 2350181396 3796284559 2788103263
+                                 3303658671 491169279 2661956028 2582220738
+                                 4159516529 295543514 3972380535 3716529300
+                                 3583625555 4047493528 693949537 1648498015
+                                 1939274975 3924032396 10047285 377451765
+                                 3230886980 253906331 3377393886 3009362600
+                                 1913609601 315779184 1344322157 2665553433
+                                 1303966036 1860656384 1358009287 1206808725
+                                 2376506845 685175390 659166063 764780779
+                                 194736781 4012991275 4173470972 1234660275
+                                 3007564151 2722855508 260859792 722685907)).
+
+Iteration 1.
+Population = 8.
+Pareto has 7 members.
+Pareto changed by 7.
+   The ave. pareto values are (68.711426 0.26350144 528.9369 0.06402733).
+   The best pareto values are (55.039997 0.22893 0.02203612
+                               25315983/5230599200).
+Good has 1 member.
+   The radius is 4697.4033.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 3 members.
+
+Iteration 2.
+Population = 23.
+Pareto has 14 members.
+Pareto changed by 13.
+   The ave. pareto values are (63.916424 0.23213963 698.7337 0.05609833).
+   The best pareto values are (29.899998 0.19000301 6.724506e-5
+                               2812887/2915424800).
+Good has 9 members.
+   The radius is 4243.8677.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 3 members.
+
+Iteration 3.
+Population = 44.
+Pareto has 15 members.
+Pareto changed by 19.
+   The ave. pareto values are (62.798668 0.5401924 173.56366 0.02180556).
+   The best pareto values are (25.13 0.186003 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 1232.6407.
+Poor has 4 members.
+Todo has 0 members.
+Taboo has 6 members.
+
+Iteration 4.
+Population = 63.
+Pareto has 13 members.
+Pareto changed by 12.
+   The ave. pareto values are (63.37231 0.27391937 230.35715 0.01614101).
+   The best pareto values are (19.46 0.15399998 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 75.580475.
+Poor has 25 members.
+Todo has 0 members.
+Taboo has 3 members.
+
+Iteration 5.
+Population = 54.
+Pareto has 15 members.
+Pareto changed by 8.
+   The ave. pareto values are (50.282665 0.24502565 217.10042 0.016843256).
+   The best pareto values are (19.46 0.15399998 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 75.366325.
+Poor has 14 members.
+Todo has 1 member.
+Taboo has 3 members.
+
+Iteration 6.
+Population = 53.
+Pareto has 19 members.
+Pareto changed by 8.
+   The ave. pareto values are (48.199474 0.21146044 109.94353 0.011788785).
+   The best pareto values are (19.46 0.15399998 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 256.04602.
+Poor has 9 members.
+Todo has 1 member.
+Taboo has 6 members.
+
+Iteration 7.
+Population = 62.
+Pareto has 28 members.
+Pareto changed by 9.
+   The ave. pareto values are (51.090706 0.2208691 125.54777 0.012364223).
+   The best pareto values are (19.46 0.15292999 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 91.664406.
+Poor has 9 members.
+Todo has 1 member.
+Taboo has 9 members.
+
+Iteration 8.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (54.483025 0.22979167 80.65322 0.007245513).
+   The best pareto values are (19.63 0.15292999 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 26.637636.
+Poor has 27 members.
+Todo has 1 member.
+Taboo has 12 members.
+
+Iteration 9.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 10.
+   The ave. pareto values are (52.27697 0.5082937 80.72355 0.0069741234).
+   The best pareto values are (19.63 0.15292999 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 27.080496.
+Poor has 21 members.
+Todo has 1 member.
+Taboo has 15 members.
+
+Iteration 10.
+Population = 83.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (53.056065 0.50882834 3.2142444
+                               1062920149333699984766415705176217/496813611703814553092854520041280000).
+   The best pareto values are (17.98 0.144 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 39.81593.
+Poor has 25 members.
+Todo has 2 members.
+Taboo has 15 members.
+
+Iteration 11.
+Population = 81.
+Pareto has 33 members.
+Pareto changed by 8.
+   The ave. pareto values are (51.620304 0.23832394 3.2009706
+                               134885541808141703386820741120931/62101701462976819136606815005160000).
+   The best pareto values are (19.579998 0.151 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 26.522411.
+Poor has 23 members.
+Todo has 2 members.
+Taboo has 3 members.
+
+Iteration 12.
+Population = 76.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (52.45121 0.23088707 3.066519
+                               127593017292221332402520065334931/62101701462976819136606815005160000).
+   The best pareto values are (19.579998 0.151 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 28.343191.
+Poor has 18 members.
+Todo has 2 members.
+Taboo has 6 members.
+
+Iteration 13.
+Population = 81.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (49.80212 0.22760777 2.869576
+                               531142010476032091842157166201800930617/218093474926993179682190195053061280160000).
+   The best pareto values are (19.579998 0.151 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 20.00072.
+Poor has 23 members.
+Todo has 2 members.
+Taboo has 9 members.
+
+Iteration 14.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (48.688183 0.22622895 10.532482 0.0034880354).
+   The best pareto values are (17.57 0.151 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 18.56359.
+Poor has 21 members.
+Todo has 2 members.
+Taboo has 3 members.
+
+Iteration 15.
+Population = 77.
+Pareto has 33 members.
+Pareto changed by 11.
+   The ave. pareto values are (48.704243 0.22784352 10.589757 0.0034880352).
+   The best pareto values are (17.57 0.151 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 21.663382.
+Poor has 19 members.
+Todo has 3 members.
+Taboo has 6 members.
+
+Iteration 16.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (45.46909 0.22272214 46.073658 0.005149573).
+   The best pareto values are (17.57 0.14842999 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 20.56827.
+Poor has 20 members.
+Todo has 3 members.
+Taboo has 9 members.
+
+Iteration 17.
+Population = 86.
+Pareto has 33 members.
+Pareto changed by 7.
+   The ave. pareto values are (44.14394 0.22153154 46.08548 0.004910719).
+   The best pareto values are (17.57 0.14842999 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 19.541973.
+Poor has 28 members.
+Todo has 3 members.
+Taboo has 12 members.
+
+Iteration 18.
+Population = 84.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (45.77363 0.22330214 46.085476 0.0049107196).
+   The best pareto values are (17.57 0.14842999 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 18.636082.
+Poor has 26 members.
+Todo has 3 members.
+Taboo has 15 members.
+
+Iteration 19.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (42.514236 0.22101188 47.42455 0.004995349).
+   The best pareto values are (17.57 0.14842999 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 19.982092.
+Poor has 21 members.
+Todo has 3 members.
+Taboo has 15 members.
+
+Iteration 20.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 9.
+   The ave. pareto values are (38.60667 0.21825622 47.42455 0.0049953493).
+   The best pareto values are (17.57 0.14842999 2.5082376e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 19.049305.
+Poor has 24 members.
+Todo has 4 members.
+Taboo has 15 members.
+
+Iteration 21.
+Population = 88.
+Pareto has 33 members.
+Pareto changed by 20.
+   The ave. pareto values are (42.668182 0.23037319 9.674171 0.0028971583).
+   The best pareto values are (17.57 0.1465 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 27.604628.
+Poor has 30 members.
+Todo has 4 members.
+Taboo has 3 members.
+
+Iteration 22.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 9.
+   The ave. pareto values are (43.30849 0.22546637 9.717331 0.0029817875).
+   The best pareto values are (17.57 0.1465 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 22.330673.
+Poor has 24 members.
+Todo has 4 members.
+Taboo has 6 members.
+
+Iteration 23.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 8.
+   The ave. pareto values are (44.85334 0.23046422 9.830447 0.0029817875).
+   The best pareto values are (17.57 0.1465 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 45.78154.
+Poor has 24 members.
+Todo has 3 members.
+Taboo has 11 members.
+
+Iteration 24.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 10.
+   The ave. pareto values are (44.340614 0.23263296 10.04799 0.0028881973).
+   The best pareto values are (17.57 0.1465 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 44.50218.
+Poor has 21 members.
+Todo has 3 members.
+Taboo has 3 members.
+
+Iteration 25.
+Population = 73.
+Pareto has 33 members.
+Pareto changed by 17.
+   The ave. pareto values are (46.5703 0.23294683 10.046648 0.0031233185).
+   The best pareto values are (17.57 0.1465 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 40.909298.
+Poor has 15 members.
+Todo has 4 members.
+Taboo has 7 members.
+
+Iteration 26.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (47.237576 0.2408645 4.489759
+                               42613638550560883843054007889591/21600591813209328395341500871360000).
+   The best pareto values are (17.46 0.141 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 42.987064.
+Poor has 21 members.
+Todo has 4 members.
+Taboo has 11 members.
+
+Iteration 27.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 9.
+   The ave. pareto values are (47.807877 0.24379088 4.4595714
+                               22223689079539775085576029651247/10800295906604664197670750435680000).
+   The best pareto values are (17.46 0.141 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 45.001377.
+Poor has 24 members.
+Todo has 4 members.
+Taboo has 14 members.
+
+Iteration 28.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (46.036366 0.23380186 4.7373195
+                               24139816940751443153137305966807/11890823108218569991265637162080000).
+   The best pareto values are (16.85 0.141 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 50.08588.
+Poor has 20 members.
+Todo has 4 members.
+Taboo has 14 members.
+
+Iteration 29.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 10.
+   The ave. pareto values are (47.83576 0.2374252 4.6854053
+                               1192458815009270925476277947878233/546977862978054219598219309455680000).
+   The best pareto values are (16.85 0.141 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 45.742474.
+Poor has 21 members.
+Todo has 4 members.
+Taboo has 14 members.
+
+Iteration 30.
+Population = 84.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (49.44425 0.23490785 4.6200824
+                               328956016713084538187150312910261/136744465744513554899554827363920000).
+   The best pareto values are (16.85 0.141 5.131896e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 29.502237.
+Poor has 26 members.
+Todo has 4 members.
+Taboo has 15 members.
+
+Iteration 31.
+Population = 93.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (51.225758 0.24710695 4.73305
+                               229316982040139181496476495547398063039/87237389970797271872876078021224512064000).
+   The best pareto values are (16.85 0.141 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 19.072012.
+Poor has 35 members.
+Todo has 4 members.
+Taboo has 14 members.
+
+Iteration 32.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (52.32758 0.24445334 4.7669754
+                               150218012732189177024725085394939/51793809095510351634246919008080000).
+   The best pareto values are (16.85 0.141 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 23.629896.
+Poor has 27 members.
+Todo has 5 members.
+Taboo has 3 members.
+
+Iteration 33.
+Population = 75.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (53.263947 0.2536806 4.6805077
+                               618459783716042870697151276352517/207175236382041406536987676032320000).
+   The best pareto values are (16.85 0.14050001 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 40.283607.
+Poor has 17 members.
+Todo has 5 members.
+Taboo has 7 members.
+
+Iteration 34.
+Population = 86.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (51.987885 0.24863096 136.67853 0.0089070005).
+   The best pareto values are (17.18 0.14050001 6.724506e-5
+                               2812887/2915424800).
+Good has 25 members.
+   The radius is 41.56826.
+Poor has 28 members.
+Todo has 5 members.
+Taboo has 11 members.
+
+Iteration 35.
+Population = 80.
+Pareto has 33 members.
+Pareto changed by 18.
+   The ave. pareto values are (51.26424 0.25936243 6.842391
+                               326884132819286255638389781663711964253/109046737463496589841095097526530640080000).
+   The best pareto values are (16.98 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 38.23759.
+Poor has 22 members.
+Todo has 5 members.
+Taboo has 11 members.
+
+Iteration 36.
+Population = 72.
+Pareto has 33 members.
+Pareto changed by 19.
+   The ave. pareto values are (55.00818 0.2578603 6.7041135
+                               185602758892692352517459211885981/62101701462976819136606815005160000).
+   The best pareto values are (16.98 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 38.469814.
+Poor has 14 members.
+Todo has 5 members.
+Taboo has 11 members.
+
+Iteration 37.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 11.
+   The ave. pareto values are (62.706364 0.26644906 7.0573587
+                               658831793239440256335494903189343/248406805851907276546427260020640000).
+   The best pareto values are (16.98 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 24.870663.
+Poor has 21 members.
+Todo has 5 members.
+Taboo has 11 members.
+
+Iteration 38.
+Population = 96.
+Pareto has 33 members.
+Pareto changed by 11.
+   The ave. pareto values are (58.00424 0.26121092 7.3476334
+                               236352221213106195699086619332991/109395572595610843919643861891136000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 19.739769.
+Poor has 38 members.
+Todo has 6 members.
+Taboo has 11 members.
+
+Iteration 39.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (59.961517 0.259923 5.3083296
+                               1088891893869929569451042505363177/546977862978054219598219309455680000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 59.507862.
+Poor has 24 members.
+Todo has 6 members.
+Taboo has 3 members.
+
+Iteration 40.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 9.
+   The ave. pareto values are (64.59152 0.27014816 4.8348317
+                               1135182232450573352341653934330677/546977862978054219598219309455680000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 24.480362.
+Poor has 24 members.
+Todo has 6 members.
+Taboo has 7 members.
+
+Iteration 41.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (69.88211 0.27156818 4.8764257
+                               1234656674659317051839383533/623003617414799633698022720000).
+   The best pareto values are (16.98 0.135 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 76.84943.
+Poor has 20 members.
+Todo has 6 members.
+Taboo has 11 members.
+
+Iteration 42.
+Population = 77.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (68.78364 0.26846427 5.034111
+                               277152370693017807487251213/155750904353699908424505680000).
+   The best pareto values are (16.98 0.135 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 35.14097.
+Poor has 19 members.
+Todo has 6 members.
+Taboo has 3 members.
+
+Iteration 43.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (70.19364 0.26697725 4.7444744
+                               112871503012202891219439099/62300361741479963369802272000).
+   The best pareto values are (16.98 0.135 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 34.387035.
+Poor has 27 members.
+Todo has 6 members.
+Taboo has 7 members.
+
+Iteration 44.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (67.71454 0.27120876 4.954419
+                               1141063958684309435324967033/623003617414799633698022720000).
+   The best pareto values are (16.98 0.135 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 43.303497.
+Poor has 20 members.
+Todo has 7 members.
+Taboo has 11 members.
+
+Iteration 45.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (70.026054 0.27241665 4.927741
+                               38965179613963987044339423990399/23781646216437139982531274324160000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 44.479828.
+Poor has 27 members.
+Todo has 7 members.
+Taboo has 13 members.
+
+Iteration 46.
+Population = 77.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (71.61121 0.2753409 5.064675
+                               194928270498913795212671379/124600723482959926739604544000).
+   The best pareto values are (16.98 0.135 6.917689e-4 2812887/2915424800).
+Good has 25 members.
+   The radius is 51.82543.
+Poor has 19 members.
+Todo has 7 members.
+Taboo has 12 members.
+
+Iteration 47.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (71.86392 0.27606606 5.1148076
+                               236352221213106195699086619332991/109395572595610843919643861891136000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 60.71307.
+Poor has 20 members.
+Todo has 7 members.
+Taboo has 12 members.
+
+Iteration 48.
+Population = 75.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (67.95333 0.27376944 5.834463
+                               464605809194863644862333648804551/207175236382041406536987676032320000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 55.13544.
+Poor has 17 members.
+Todo has 7 members.
+Taboo has 12 members.
+
+Iteration 49.
+Population = 66.
+Pareto has 33 members.
+Pareto changed by 25.
+   The ave. pareto values are (71.066666 0.2738712 5.656763
+                               44701807640757748226408271403179/20717523638204140653698767603232000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 91.66924.
+Poor has 8 members.
+Todo has 7 members.
+Taboo has 12 members.
+
+Iteration 50.
+Population = 69.
+Pareto has 33 members.
+Pareto changed by 25.
+   The ave. pareto values are (75.78333 0.28535604 5.444307
+                               127288979546580300007235811393567/51793809095510351634246919008080000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 75.97839.
+Poor has 11 members.
+Todo has 8 members.
+Taboo has 12 members.
+
+Iteration 51.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 25.
+   The ave. pareto values are (73.52 0.29355517 5.6511817
+                               123757554881769395626726470433881/51793809095510351634246919008080000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 53.420773.
+Poor has 20 members.
+Todo has 8 members.
+Taboo has 12 members.
+
+Iteration 52.
+Population = 86.
+Pareto has 33 members.
+Pareto changed by 23.
+   The ave. pareto values are (65.830925 0.27724332 5.5183687
+                               61549521270154400084860977501321/25896904547755175817123459504040000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 47.534462.
+Poor has 28 members.
+Todo has 8 members.
+Taboo has 12 members.
+
+Iteration 53.
+Population = 92.
+Pareto has 33 members.
+Pareto changed by 23.
+   The ave. pareto values are (74.648186 0.2922673 5.741034
+                               93908067728452854884920152357579/41435047276408281307397535206464000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 31.925201.
+Poor has 34 members.
+Todo has 8 members.
+Taboo has 3 members.
+
+Iteration 54.
+Population = 75.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (69.66787 0.2793927 7.404805
+                               105153114226433061459113427408039/41435047276408281307397535206464000).
+   The best pareto values are (16.98 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 42.724472.
+Poor has 17 members.
+Todo has 8 members.
+Taboo has 7 members.
+
+Iteration 55.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (68.43394 0.26878667 83.926 0.009708185).
+   The best pareto values are (16.96 0.135 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 34.19937.
+Poor has 27 members.
+Todo has 8 members.
+Taboo has 11 members.
+
+Iteration 56.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (70.8709 0.2701831 82.842476 0.009740457).
+   The best pareto values are (16.96 0.135 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 47.89807.
+Poor has 24 members.
+Todo has 8 members.
+Taboo has 15 members.
+
+Iteration 57.
+Population = 81.
+Pareto has 33 members.
+Pareto changed by 10.
+   The ave. pareto values are (69.07606 0.27345347 83.04049 0.009979309).
+   The best pareto values are (16.96 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 29.249924.
+Poor has 23 members.
+Todo has 9 members.
+Taboo has 14 members.
+
+Iteration 58.
+Population = 79.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (66.10425 0.26937777 83.275894 0.009707917).
+   The best pareto values are (16.96 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 27.076765.
+Poor has 21 members.
+Todo has 9 members.
+Taboo has 14 members.
+
+Iteration 59.
+Population = 77.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (66.0297 0.27207452 83.19777 0.009951737).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 23.61196.
+Poor has 19 members.
+Todo has 9 members.
+Taboo has 13 members.
+
+Iteration 60.
+Population = 76.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (68.38698 0.27048153 83.25305 0.009834308).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 47.072147.
+Poor has 18 members.
+Todo has 9 members.
+Taboo has 15 members.
+
+Iteration 61.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (68.84091 0.27297938 83.219185 0.009834308).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 44.270985.
+Poor has 20 members.
+Todo has 9 members.
+Taboo has 14 members.
+
+Iteration 62.
+Population = 81.
+Pareto has 33 members.
+Pareto changed by 10.
+   The ave. pareto values are (66.29001 0.271133 83.1478 0.009955733).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 34.306988.
+Poor has 23 members.
+Todo has 9 members.
+Taboo has 13 members.
+
+Iteration 63.
+Population = 76.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (66.47213 0.27622396 83.1885 0.009717143).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 48.365185.
+Poor has 18 members.
+Todo has 10 members.
+Taboo has 15 members.
+
+Iteration 64.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 9.
+   The ave. pareto values are (66.47636 0.27484512 83.23951 0.009834573).
+   The best pareto values are (16.96 0.135 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 21.972885.
+Poor has 24 members.
+Todo has 10 members.
+Taboo has 13 members.
+
+Iteration 65.
+Population = 85.
+Pareto has 33 members.
+Pareto changed by 16.
+   The ave. pareto values are (67.95727 0.2734685 83.308334 0.009440788).
+   The best pareto values are (16.96 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 22.990294.
+Poor has 27 members.
+Todo has 10 members.
+Taboo has 12 members.
+
+Iteration 66.
+Population = 82.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (74.971825 0.2818864 81.49157 0.009290559).
+   The best pareto values are (16.96 0.135 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 44.544647.
+Poor has 24 members.
+Todo has 10 members.
+Taboo has 14 members.
+
+Iteration 67.
+Population = 77.
+Pareto has 33 members.
+Pareto changed by 14.
+   The ave. pareto values are (70.59908 0.27641672 81.21754 0.009449748).
+   The best pareto values are (16.96 0.1385 2.5082376e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 70.00172.
+Poor has 19 members.
+Todo has 10 members.
+Taboo has 15 members.
+
+Iteration 68.
+Population = 76.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (69.25425 0.25899664 260.84113 0.017499393).
+   The best pareto values are (16.96 0.1385 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 75.110306.
+Poor has 18 members.
+Todo has 10 members.
+Taboo has 15 members.
+
+Iteration 69.
+Population = 78.
+Pareto has 33 members.
+Pareto changed by 13.
+   The ave. pareto values are (66.13273 0.2602412 260.84384 0.017381964).
+   The best pareto values are (16.96 0.1385 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 51.616978.
+Poor has 20 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 70.
+Population = 80.
+Pareto has 33 members.
+Pareto changed by 11.
+   The ave. pareto values are (69.84393 0.2642976 260.8457 0.01734543).
+   The best pareto values are (16.96 0.1385 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 45.14889.
+Poor has 22 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 71.
+Population = 76.
+Pareto has 33 members.
+Pareto changed by 15.
+   The ave. pareto values are (66.02576 0.26169574 261.02222 0.01734543).
+   The best pareto values are (16.96 0.1385 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 50.42881.
+Poor has 18 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 72.
+Population = 83.
+Pareto has 33 members.
+Pareto changed by 12.
+   The ave. pareto values are (65.12606 0.2677412 261.24 0.017195202).
+   The best pareto values are (16.96 0.1385 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 39.97517.
+Poor has 25 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 73.
+Population = 75.
+Pareto has 33 members.
+Pareto changed by 18.
+   The ave. pareto values are (64.93818 0.2618018 117.48735 0.011288822).
+   The best pareto values are (16.96 0.1345 6.724506e-5 2812887/2915424800).
+Good has 25 members.
+   The radius is 60.491913.
+Poor has 17 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 74.
+Population = 80.
+Pareto has 33 members.
+Pareto changed by 11.
+   The ave. pareto values are (68.12576 0.26813516 117.428314 0.011167397).
+   The best pareto values are (16.96 0.1345 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 43.93867.
+Poor has 22 members.
+Todo has 11 members.
+Taboo has 12 members.
+
+Iteration 75.
+Population = 66.
+Pareto has 28 members.
+Pareto changed by 28.
+   The ave. pareto values are (68.460365 0.26511323 137.35655 0.01295094).
+   The best pareto values are (16.96 0.1345 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 54.637447.
+Poor has 13 members.
+Todo has 8 members.
+Taboo has 3 members.
+
+Iteration 75.
+Population = 66.
+Pareto has 28 members.
+Pareto changed by 28.
+   The ave. pareto values are (68.460365 0.26511323 137.35655 0.01295094).
+   The best pareto values are (16.96 0.1345 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 54.637447.
+Poor has 13 members.
+Todo has 8 members.
+Taboo has 3 members.
+
+Iteration 75.
+Population = 66.
+Pareto has 28 members.
+Pareto changed by 28.
+   The ave. pareto values are (68.460365 0.26511323 137.35655 0.01295094).
+   The best pareto values are (16.96 0.1345 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 54.637447.
+Poor has 13 members.
+Todo has 8 members.
+Taboo has 6 members.
+
+Iteration 75.
+Population = 66.
+Pareto has 28 members.
+Pareto changed by 28.
+   The ave. pareto values are (68.460365 0.26511323 137.35655 0.01295094).
+   The best pareto values are (16.96 0.1345 0.0012533892 2812887/2915424800).
+Good has 25 members.
+   The radius is 54.637447.
+Poor has 13 members.
+Todo has 8 members.
+Taboo has 3 members.
+

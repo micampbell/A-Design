@@ -1,0 +1,14 @@
+((0.0538 0.0856) (0.00635 0.00635))
+;;; Shaft.comps
+;;; This file contains information on shaft components
+;;; and has the format:
+;;; (name ((length diameter) (cost wgt eff tolerances))
+
+;;; The following 4 shafts are from the Nordex catalog 1983 p. 10
+;;; All sizes are metric in meters.
+(Shaft-AAS-A8-1		(25.4e-3 6.35e-3)	(1.00 13.93e-3 .99 5e-6 1.27e-4))
+(Shaft-AAS-A8-10	(53.8e-3 6.35e-3)	(1.98 13.93e-3 .99 5e-6 1.27e-4))
+(Shaft-AAS-A8-20	(85.6e-3 6.35e-3)	(2.25 13.93e-3 .99 5e-6 1.27e-4))
+(Shaft-AAS-A8-30	(0.1364 6.35e-3)	(2.50 13.93e-3 .99 5e-6 1.27e-4))
+
+

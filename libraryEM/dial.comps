@@ -1,0 +1,19 @@
+((0 0))
+;;; Dial.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((length diameter) (cost wgt eff))
+
+(imag-dial-1	(0)	(1.50 10e-3 0.99))
+(imag-dial-2	(0)	(3.00 20e-3 0.99))
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,261 @@
+        0 -      ffff       65536     free            ----
+    10000 -     10fff        4096   commit private    rw--
+    11000 -     1ffff       61440     free            ----
+    20000 -     20fff        4096   commit private    rw--
+    21000 -    3fffff     4059136     free            ----
+   400000 -    400fff        4096   commit   image    r---
+   401000 -    405fff       20480   commit   image    r-x-
+   406000 -    406fff        4096   commit   image    r---
+   407000 -    414fff       57344   commit   image    rw--
+   415000 -    415fff        4096   commit   image    r---
+   416000 -    41ffff       40960     free            ----
+   420000 -   1419fff    16752640  reserve private        
+  141a000 -   141afff        4096   commit private    rw-- (guard)
+  141b000 -   141ffff       20480   commit private    rw--
+  1420000 -   142bfff       49152   commit private    rw--
+  142c000 -   151ffff      999424  reserve private        
+  1520000 -   1520fff        4096   commit  mapped    rw--
+  1521000 -   152ffff       61440  reserve  mapped        
+  1530000 -   1545fff       90112   commit  mapped    r---
+  1546000 -   154ffff       40960     free            ----
+  1550000 -   157efff      192512   commit  mapped    r---
+  157f000 -   157ffff        4096     free            ----
+  1580000 -   15c0fff      266240   commit  mapped    r---
+  15c1000 -   15cffff       61440     free            ----
+  15d0000 -   15d3fff       16384   commit  mapped    r---
+  15d4000 -   15dffff       49152     free            ----
+  15e0000 -   15e3fff       16384   commit  mapped    r-x-
+  15e4000 -   169ffff      770048  reserve  mapped        
+  16a0000 -   16a1fff        8192   commit  mapped    r-x-
+  16a2000 -   16a7fff       24576  reserve  mapped        
+  16a8000 -   16affff       32768     free            ----
+  16b0000 -   16f2fff      274432   commit  mapped    r---
+  16f3000 -   16fffff       53248     free            ----
+  1700000 -   1767fff      425984   commit  mapped    r-x-
+  1768000 -   19fffff     2719744  reserve  mapped        
+  1a00000 -   1a00fff        4096   commit private    rw--
+  1a01000 -   1a0ffff       61440     free            ----
+  1a10000 -   1a10fff        4096   commit private    rw--
+  1a11000 -   1a1ffff       61440     free            ----
+  1a20000 -   1a26fff       28672   commit private    rw--
+  1a27000 -   1a2ffff       36864  reserve private        
+  1a30000 -   1a31fff        8192   commit  mapped    r---
+  1a32000 -   1a3ffff       57344     free            ----
+  1a40000 -   1a40fff        4096   commit private    rw--
+  1a41000 -   1abffff      520192  reserve private        
+  1ac0000 -   2ab6fff    16740352  reserve private        
+  2ab7000 -   2ab7fff        4096   commit private    rw-- (guard)
+  2ab8000 -   2abffff       32768   commit private    rw--
+  2ac0000 -  1fc9ffff   488505344     free            ----
+ 1fca0000 -  1fff4fff     3493888   commit  mapped    r---
+ 1fff5000 -  1fffffff       45056     free            ----
+ 20000000 -  20001fff        8192   commit  mapped    rw--
+ 20002000 -  20005fff       16384   commit  mapped    rw-c
+ 20006000 -  20007fff        8192   commit  mapped    rw--
+ 20008000 -  20009fff        8192   commit  mapped    rw-c
+ 2000a000 -  2000cfff       12288   commit  mapped    rw--
+ 2000d000 -  2000dfff        4096   commit  mapped    rw-c
+ 2000e000 -  2000efff        4096   commit  mapped    rw--
+ 2000f000 -  20014fff       24576   commit  mapped    rw-c
+ 20015000 -  20015fff        4096   commit  mapped    rw--
+ 20016000 -  20018fff       12288   commit  mapped    rw-c
+ 20019000 -  20019fff        4096   commit  mapped    rw--
+ 2001a000 -  20021fff       32768   commit  mapped    rw-c
+ 20022000 -  20025fff       16384   commit  mapped    rw--
+ 20026000 -  20027fff        8192   commit  mapped    rw-c
+ 20028000 -  20028fff        4096   commit  mapped    rw--
+ 20029000 -  20045fff      118784   commit  mapped    rw-c
+ 20046000 -  20046fff        4096   commit  mapped    rw--
+ 20047000 -  20049fff       12288   commit  mapped    rw-c
+ 2004a000 -  2004bfff        8192   commit  mapped    rw--
+ 2004c000 -  2004cfff        4096   commit  mapped    rw-c
+ 2004d000 -  2004efff        8192   commit  mapped    rw--
+ 2004f000 -  2004ffff        4096   commit  mapped    rw-c
+ 20050000 -  20050fff        4096   commit  mapped    rw--
+ 20051000 -  20053fff       12288   commit  mapped    rw-c
+ 20054000 -  20054fff        4096   commit  mapped    rw--
+ 20055000 -  20055fff        4096   commit  mapped    rw-c
+ 20056000 -  20057fff        8192   commit  mapped    rw--
+ 20058000 -  20058fff        4096   commit  mapped    rw-c
+ 20059000 -  20059fff        4096   commit  mapped    rw--
+ 2005a000 -  20081fff      163840   commit  mapped    rw-c
+ 20082000 -  20082fff        4096   commit  mapped    rw--
+ 20083000 -  20088fff       24576   commit  mapped    rw-c
+ 20089000 -  20089fff        4096   commit  mapped    rw--
+ 2008a000 -  2008ffff       24576   commit  mapped    rw-c
+ 20090000 -  20095fff       24576   commit  mapped    rw--
+ 20096000 -  20097fff        8192   commit  mapped    rw-c
+ 20098000 -  20098fff        4096   commit  mapped    rw--
+ 20099000 -  2009afff        8192   commit  mapped    rw-c
+ 2009b000 -  2009cfff        8192   commit  mapped    rw--
+ 2009d000 -  2009dfff        4096   commit  mapped    rw-c
+ 2009e000 -  2009ffff        8192   commit  mapped    rw--
+ 200a0000 -  200a7fff       32768   commit  mapped    rw-c
+ 200a8000 -  200a9fff        8192   commit  mapped    rw--
+ 200aa000 -  200d1fff      163840   commit  mapped    rw-c
+ 200d2000 -  200d3fff        8192   commit  mapped    rw--
+ 200d4000 -  200dffff       49152   commit  mapped    rw-c
+ 200e0000 -  202cffff     2031616   commit private    rwx-
+ 202d0000 -  202fafff      176128   commit  mapped    rw-c
+ 202fb000 -  202fcfff        8192   commit  mapped    rw--
+ 202fd000 -  202fffff       12288   commit  mapped    rw-c
+ 20300000 -  20301fff        8192   commit  mapped    rw--
+ 20302000 -  20302fff        4096   commit  mapped    rw-c
+ 20303000 -  20303fff        4096   commit  mapped    rw--
+ 20304000 -  2031cfff      102400   commit  mapped    rw-c
+ 2031d000 -  2031dfff        4096   commit  mapped    rw--
+ 2031e000 -  2032dfff       65536   commit  mapped    rw-c
+ 2032e000 -  2032efff        4096   commit  mapped    rw--
+ 2032f000 -  2033efff       65536   commit  mapped    rw-c
+ 2033f000 -  20340fff        8192   commit  mapped    rw--
+ 20341000 -  20344fff       16384   commit  mapped    rw-c
+ 20345000 -  20345fff        4096   commit  mapped    rw--
+ 20346000 -  20347fff        8192   commit  mapped    rw-c
+ 20348000 -  20348fff        4096   commit  mapped    rw--
+ 20349000 -  2034dfff       20480   commit  mapped    rw-c
+ 2034e000 -  2034efff        4096   commit  mapped    rw--
+ 2034f000 -  20350fff        8192   commit  mapped    rw-c
+ 20351000 -  20351fff        4096   commit  mapped    rw--
+ 20352000 -  20354fff       12288   commit  mapped    rw-c
+ 20355000 -  20355fff        4096   commit  mapped    rw--
+ 20356000 -  2035ffff       40960   commit  mapped    rw-c
+ 20360000 -  2036ffff       65536   commit  mapped    rw--
+ 20370000 -  20370fff        4096   commit  mapped    rw-c
+ 20371000 -  2037efff       57344   commit  mapped    rw--
+ 2037f000 -  20381fff       12288   commit  mapped    rw-c
+ 20382000 -  2038dfff       49152   commit  mapped    rw--
+ 2038e000 -  2038ffff        8192   commit  mapped    rw-c
+ 20390000 -  204affff     1179648   commit private    rwx-
+ 204b0000 -  204cffff      131072   commit  mapped    rw--
+ 204d0000 -  205bffff      983040   commit private    rwx-
+ 205c0000 -  205cefff       61440   commit  mapped    rw--
+ 205cf000 -  205cffff        4096   commit  mapped    rw-c
+ 205d0000 -  20bfffff     6488064  reserve private        
+ 20c00000 -  53ffffff   859832320     free            ----
+ 54000000 -  54000fff        4096   commit  mapped    rw--
+ 54001000 -  54003fff       12288   commit  mapped    rw-c
+ 54004000 -  54004fff        4096   commit  mapped    rw--
+ 54005000 -  5400ffff       45056   commit  mapped    rw-c
+ 54010000 -  54ffffff    16711680  reserve private        
+ 55000000 -  6384ffff   243597312     free            ----
+ 63850000 -  63850fff        4096   commit   image    r---
+ 63851000 -  6388bfff      241664   commit   image    r-x-
+ 6388c000 -  6388dfff        8192   commit   image    r---
+ 6388e000 -  63891fff       16384   commit   image    rw--
+ 63892000 -  63892fff        4096   commit   image    rw-c
+ 63893000 -  63895fff       12288   commit   image    rw--
+ 63896000 -  63899fff       16384   commit   image    rw-c
+ 6389a000 -  6389afff        4096   commit   image    rw--
+ 6389b000 -  6389dfff       12288   commit   image    rw-c
+ 6389e000 -  6389ffff        8192   commit   image    rw--
+ 638a0000 -  638a0fff        4096   commit   image    rw-c
+ 638a1000 -  638b1fff       69632   commit   image    r---
+ 638b2000 -  7501ffff   293003264     free            ----
+ 75020000 -  75020fff        4096   commit   image    r---
+ 75021000 -  75024fff       16384   commit   image    r-x-
+ 75025000 -  75025fff        4096   commit   image    rw--
+ 75026000 -  75027fff        8192   commit   image    r---
+ 75028000 -  7502ffff       32768     free            ----
+ 75030000 -  75030fff        4096   commit   image    r---
+ 75031000 -  75040fff       65536   commit   image    r-x-
+ 75041000 -  75041fff        4096   commit   image    rw--
+ 75042000 -  75043fff        8192   commit   image    r---
+ 75044000 -  7504ffff       49152     free            ----
+ 75050000 -  75050fff        4096   commit   image    r---
+ 75051000 -  75053fff       12288   commit   image    r-x-
+ 75054000 -  75057fff       16384   commit   image    r---
+ 75058000 -  759affff     9797632     free            ----
+ 759b0000 -  759b0fff        4096   commit   image    r---
+ 759b1000 -  759b2fff        8192   commit   image    r-x-
+ 759b3000 -  759b3fff        4096   commit   image    rw--
+ 759b4000 -  759b5fff        8192   commit   image    r---
+ 759b6000 -  76b2ffff    18325504     free            ----
+ 76b30000 -  76b30fff        4096   commit   image    r---
+ 76b31000 -  76b5afff      172032   commit   image    r-x-
+ 76b5b000 -  76b5bfff        4096   commit   image    rw--
+ 76b5c000 -  76b5efff       12288   commit   image    rw-c
+ 76b5f000 -  76b6dfff       61440   commit   image    r---
+ 76b6e000 -  7756ffff    10493952     free            ----
+ 77570000 -  77570fff        4096   commit   image    r---
+ 77571000 -  7758ffff      126976   commit   image    r-x-
+ 77590000 -  77593fff       16384   commit   image    rw--
+ 77594000 -  77594fff        4096   commit   image    rw-c
+ 77595000 -  7759ffff       45056   commit   image    r---
+ 775a0000 -  775a0fff        4096   commit   image    r---
+ 775a1000 -  776bbfff     1159168   commit   image    r-x-
+ 776bc000 -  776bcfff        4096   commit   image    rw--
+ 776bd000 -  776bffff       12288   commit   image    rw-c
+ 776c0000 -  777dffff     1179648   commit   image    r---
+ 777e0000 -  7781ffff      262144     free            ----
+ 77820000 -  77820fff        4096   commit   image    r---
+ 77821000 -  77823fff       12288   commit   image    r-x-
+ 77824000 -  77824fff        4096   commit   image    rw--
+ 77825000 -  77826fff        8192   commit   image    r---
+ 77827000 -  77b4ffff     3313664     free            ----
+ 77b50000 -  77b50fff        4096   commit   image    r---
+ 77b51000 -  77bb5fff      413696   commit   image    r-x-
+ 77bb6000 -  77bb6fff        4096   commit   image    rw--
+ 77bb7000 -  77bd9fff      143360   commit   image    r---
+ 77bda000 -  77c6ffff      614400     free            ----
+ 77c70000 -  77c70fff        4096   commit   image    r---
+ 77c71000 -  77cb3fff      274432   commit   image    r-x-
+ 77cb4000 -  77cb4fff        4096   commit   image    rw--
+ 77cb5000 -  77cb9fff       20480   commit   image    r---
+ 77cba000 -  77d3ffff      548864     free            ----
+ 77d40000 -  77d40fff        4096   commit   image    r---
+ 77d41000 -  77da8fff      425984   commit   image    r-x-
+ 77da9000 -  77da9fff        4096   commit   image    rw--
+ 77daa000 -  77daefff       20480   commit   image    r---
+ 77daf000 -  77daffff        4096     free            ----
+ 77db0000 -  77db0fff        4096   commit   image    r---
+ 77db1000 -  77e00fff      327680   commit   image    r-x-
+ 77e01000 -  77e02fff        8192   commit   image    rw--
+ 77e03000 -  77e03fff        4096   commit   image    rw-c
+ 77e04000 -  77e09fff       24576   commit   image    r---
+ 77e0a000 -  77e0ffff       24576     free            ----
+ 77e10000 -  77e10fff        4096   commit   image    r---
+ 77e11000 -  77e68fff      360448   commit   image    r-x-
+ 77e69000 -  77e69fff        4096   commit   image    rw--
+ 77e6a000 -  77e74fff       45056   commit   image    r---
+ 77e75000 -  77e7ffff       45056     free            ----
+ 77e80000 -  77e80fff        4096   commit   image    r---
+ 77e81000 -  77edefff      385024   commit   image    r-x-
+ 77edf000 -  77ee0fff        8192   commit   image    rw--
+ 77ee1000 -  77f35fff      348160   commit   image    r---
+ 77f36000 -  77f3ffff       40960     free            ----
+ 77f40000 -  77f40fff        4096   commit   image    r---
+ 77f41000 -  77f77fff      225280   commit   image    r-x-
+ 77f78000 -  77f78fff        4096   commit   image    rw--
+ 77f79000 -  77f7bfff       12288   commit   image    r---
+ 77f7c000 -  77f7ffff       16384     free            ----
+ 77f80000 -  77f80fff        4096   commit   image    r---
+ 77f81000 -  77fccfff      311296   commit   image    r-x-
+ 77fcd000 -  77fcefff        8192   commit   image    rw--
+ 77fcf000 -  77fcffff        4096   commit   image    rw-c
+ 77fd0000 -  77ff8fff      167936   commit   image    r---
+ 77ff9000 -  77ffffff       28672     free            ----
+ 78000000 -  78000fff        4096   commit   image    r---
+ 78001000 -  78032fff      204800   commit   image    r-x-
+ 78033000 -  7803afff       32768   commit   image    r---
+ 7803b000 -  7803cfff        8192   commit   image    rw--
+ 7803d000 -  7803efff        8192   commit   image    rw-c
+ 7803f000 -  7803ffff        4096   commit   image    rw--
+ 78040000 -  78040fff        4096   commit   image    rw-c
+ 78041000 -  78041fff        4096   commit   image    rw--
+ 78042000 -  78045fff       16384   commit   image    r---
+ 78046000 -  7f6effff   124428288     free            ----
+ 7f6f0000 -  7f6f6fff       28672   commit  mapped    r-x-
+ 7f6f7000 -  7f7effff     1019904  reserve  mapped        
+ 7f7f0000 -  7ffaffff     8126464     free            ----
+ 7ffb0000 -  7ffd3fff      147456   commit  mapped    r---
+ 7ffd4000 -  7ffdcfff       36864     free            ----
+ 7ffdd000 -  7ffddfff        4096   commit private    rwx-
+ 7ffde000 -  7ffdefff        4096   commit private    rwx-
+ 7ffdf000 -  7ffdffff        4096   commit private    rwx-
+ 7ffe0000 -  7ffe0fff        4096   commit private    r---
+ 7ffe1000 -  7ffeffff       61440  reserve private    ----
+
+Committed:
+  image:     7380992 (0x70a000)
+  other:    11309056 (0xac9000)
+  Total:    18690048  (0x11d3000)

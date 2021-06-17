@@ -1,0 +1,29 @@
+((620 100000.0) (0.5 0.5))
+;;; Resistor.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((R power-consumption) (cost wgt eff))
+
+;;; The following 7 capacitors are from the Allied Electronics online catalog p. 445
+;;; All sizes are metric in volts, farads, henrys, amps.
+
+(resistor-297-7042	(3 0.5)		(0.01 3e-6 0.4))
+(resistor-297-7102	(22 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7130	(33 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7226	(150 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7237	(180 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7324	(620 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7343	(820 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7427	(3000 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7446	(3900 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7565	(18e3 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7592	(24e3 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7717	(100e3 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7751	(180e3 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7877	(1e6 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7890	(1.3e6 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7916	(4.7e6 0.5)	(0.01 3e-6 0.4))
+(resistor-297-7924	(10e6 0.5)	(0.01 3e-6 0.4))
+
+
+

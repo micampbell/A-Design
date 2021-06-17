@@ -1,0 +1,100 @@
+(h-beam
+ (l w angle)
+ (;; x-force1
+  ;; y-force1
+  ;; moment1
+  ;; current1
+  ;; x-displacement1
+  ;; y-displacement1
+  ;; angle-displacement1
+  ;; voltage1
+  ;; x-force2
+  ;; y-force2
+  ;; moment2
+  ;; current2
+  ;; x-displacement2
+  ;; y-displacement2
+  ;; angle-displacement2
+  ;; voltage2
+  )
+ ((nil ((1 0 0 L) (0 1 0 0) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 (- L)) (0 1 0 0) (0 0 1 0) (0 0 0 1)) nil))
+ ((nil nil (nil integ integ nil) power (trans-x trans-y rot-z elect)
+       nil (west north south) nil)
+  (nil nil (nil integ integ nil) power (trans-x trans-y rot-z elect)
+       nil (north east south) nil)))
+
+(v-beam
+ (l w angle)
+ ()
+ ((nil ((1 0 0 0) (0 1 0 L) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 0) (0 1 0 (- L)) (0 0 1 0) (0 0 0 1)) nil))
+ ((nil nil (integ nil integ nil) power (trans-x trans-y rot-z elect) 
+       nil (west east south) nil)
+  (nil nil (integ nil integ nil) power (trans-x trans-y rot-z elect) 
+       nil (west north east) nil)))
+
+(h-electrostatic-gap
+ (finger_width finger_length overlap gap rotor_fingers)
+ ()
+ ((nil ((1 0 0 (- (* 2 FINGER_LENGTH) OVERLAP)) (0 1 0 0) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 (- OVERLAP (* 2 FINGER_LENGTH))) (0 1 0 0) (0 0 1 0) (0 0 0 1)) nil))
+ ((nil nil (integ nil integ deriv) power (trans-x trans-y rot-z elect)
+	 nil (west north south) nil)
+  (nil nil (integ nil integ deriv) power (trans-x trans-y rot-z elect)
+	 nil (north east south) nil)))
+
+
+(v-electrostatic-gap
+ (finger_width finger_length overlap gap rotor_fingers)
+ ()
+ ((nil ((1 0 0 0) (0 1 0 (- (* 2 FINGER_LENGTH) OVERLAP)) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 0) (0 1 0 (- OVERLAP (* 2 FINGER_LENGTH))) (0 0 1 0) (0 0 0 1)) nil))
+ ((nil nil (nil integ integ deriv) power (trans-x trans-y rot-z elect)
+	 nil (west east south) nil)
+  (nil nil (nil integ integ deriv) power (trans-x trans-y rot-z elect) 
+	nil (west north east) nil)))
+
+
+
+(mass
+ (l w)
+ ()
+ ((NIL 
+   ((1 0 0 0) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (/ W 2)) (0 1 0 0) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 0) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1))	
+   ((1 0 0 (- (/ W 2))) (0 1 0 0) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 0) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1)) 
+   NIL
+   ((1 0 0 (/ W 2)) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 0) (0 1 0 (- L)) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (- (/ W 2))) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 (- (/ W 2))) (0 1 0 0) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (- (/ W 2))) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1))
+   NIL
+   ((1 0 0 (- (/ W 2))) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (- W)) (0 1 0 0) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 0) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 0) (0 1 0 L) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (/ W 2)) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1))
+   NIL
+   ((1 0 0 (- (/ W 2))) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1)))
+  (((1 0 0 (/ W 2)) (0 1 0 0) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (/ W 2)) (0 1 0 (/ L 2)) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 W) (0 1 0 0) (0 0 1 0) (0 0 0 1))
+   ((1 0 0 (/ W 2)) (0 1 0 (- (/ L 2))) (0 0 1 0) (0 0 0 1))
+   NIL))
+ ((nil nil (nil nil nil nil) power (trans-x trans-y rot-z elect) 
+       nil (up) nil)
+  (nil nil (nil nil nil nil) power (trans-x trans-y rot-z elect) 
+       nil (north) nil)
+  (nil nil (nil nil nil nil) power (trans-x trans-y rot-z elect) 
+       nil (east) nil)
+  (nil nil (nil nil nil nil) power (trans-x trans-y rot-z elect) 
+       nil (south) nil)
+  (nil nil (nil nil nil nil) power (trans-x trans-y rot-z elect) 
+       nil (west) nil)))
+
+
+(joint (ang) nil nil (nil nil nil nil))

@@ -1,0 +1,11 @@
+
+((((nil nil nil nil nil nil nil (0 0)))
+(nil nil nil nil nil nil nil ((0 1)))	
+(nil nil nil nil ((1 0 0 0) (0 1 0 0) (0 0 1 0) (0 0 0 1)) NIL SOURCE ((0 0) GOAL)))
+nil
+(SHAFT)
+nil 
+nil
+nil 
+nil 
+nil))

@@ -1,0 +1,10 @@
+((64 64) (0.1778 0.1778))
+;;; Rack.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (pitch length) (cost wgt eff))
+
+;;; The following 1 rack is from the Nordex catalog 1983 p. 255
+;;; All sizes are metric in meters.
+(Rack-KHS-F2-142	(64 177.8e-3)		(26.75 32e-3 0.99))
+

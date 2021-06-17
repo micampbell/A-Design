@@ -1,0 +1,23 @@
+((1.0 10.0) (4.0 6.0))
+;;; Torsion-spring.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((k length) (cost wgt eff))
+
+(imag-t-spring-1 	(0.1 2.0) 	(0.35 0.0625 0.99))
+(imag-t-spring-2 	(0.2 2.0) 	(0.55 0.1 0.99))
+(imag-t-spring-3 	(0.4 2.0) 	(0.70 0.125 0.99))
+(imag-t-spring-4 	(0.8 2.0) 	(0.75 0.15 0.99))
+(imag-t-spring-5 	(1.0 4.0) 	(1.00 0.25 0.98))
+(imag-t-spring-6 	(2.0 4.0) 	(1.05 0.25 0.98))
+(imag-t-spring-7 	(4.0 4.0) 	(1.05 0.62 0.98))
+(imag-t-spring-8 	(8.0 4.0) 	(1.25 0.75 0.975))
+(imag-t-spring-9 	(10.0 6.0) 	(1.35 0.775 0.975))
+(imag-t-spring-10	(20.0 6.0) 	(1.35 0.85 0.97))
+(imag-t-spring-11	(40.0 6.0)	(2.05 0.925 0.97))
+(imag-t-spring-12 	(80.0 6.0) 	(2.35 1.0 0.97))
+
+
+
+
+

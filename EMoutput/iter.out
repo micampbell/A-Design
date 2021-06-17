@@ -1,0 +1,587 @@
+Population = 100.
+No. of Iterations = 75.
+
+Random Seed is #S(RANDOM-STATE :MTI 28
+                               :FIXSEED
+                               #(924670664 1814207886 58265892 4287534578 1724609360
+                                 1180738742 57655356 626917962 1789943928 3687849342
+                                 3025408660 2665251874 111508640 3665151622 2672149068
+                                 3251089882 1389575784 2010901038 3357206084 1273802450
+                                 4225909936 3501220118 2533417244 689738090 4192284888
+                                 3567555934 1982455668 1027473218 1265156416 4280690470
+                                 2322345708 2050926394 2707335176 2294959694 2001233892
+                                 3223124018 3945948048 3529918710 2579102716 364408714
+                                 416368696 3262870974 3808139732 4087570274 1695461856
+                                 2659815110 3284514316 124849562 1046004776 371428206
+                                 2367364996 291072146 571151984 237296342 4090936156
+                                 1125306410 3375568408 815131166 1892461876 414348290
+                                 2939559168 773292262 1895578412 413004922 3025864776
+                                 3203399438 2486439588 1858413426 648718544 3492533302
+                                 2877584060 3804161482 337654520 1680061438 447740948
+                                 3512549794 853840160 2536372742 1484890572 3554426714
+                                 3977197544 3674327726 1773884612 3896643154 2929055280
+                                 863327894 3256643228 4279104234 1312064088 413025246
+                                 3868693236 2322959042 2566355392 3756706982 4281333100
+                                 3877375418 2918260360 3547844302 1396439652 3505175730
+                                 2510492176 3280834934 1536216956 3319249418 276907448
+                                 3339983678 2310160468 433516002 1406932320 1120569158
+                                 2390241420 3743494682 1510124200 3558730478 950170372
+                                 1979927826 734246128 425485142 973957084 3044029610
+                                 494251160 3263339422 1965042100 1631918210 126094976
+                                 3746998630 4235318444 143355898 1286426056 2119802510
+                                 2850292772 4128452338 2987778640 2703424950 255747388
+                                 3224502090 2957118840 1764394110 261193108 2300783394
+                                 906049952 3173004166 102498636 3040811226 764456808
+                                 2604625198 2899184964 2203413458 4034136496 3351698966
+                                 335911964 4072758890 2389011416 409631838 3930113140
+                                 2952477250 1083618368 3932427302 3697202668 1977245754
+                                 3826812168 1741668686 2587521252 1928920882 386160784
+                                 2904833014 705537276 1190296202 4148034872 2886749374
+                                 2407103188 1756928098 3013756640 3305365958 3173138188
+                                 4132669082 2656701224 1917406830 1138873988 3503006610
+                                 3472671088 1499654614 3183995996 2260462378 2357180184
+                                 1099838750 4165095476 1025322242 34971648 4109385702
+                                 2696999468 1713259898 3421996360 1845305870 871835556
+                                 1631891058 2778486224 3010012982 655465916 1996059850
+                                 3658041848 296424702 2000179476 1226522274 1255091232
+                                 2392651014 4267033292 1358648410 3323889384 3771174830
+                                 744643012 3142829394 2760172848 1072743830 2596648860
+                                 1806911978 992263000 429354206 1335854580 348121026
+                                 133854912 2769171366 3327475308 47461562 3636855176
+                                 649544654 3216865636 3310014051 2169812635 3378980947
+                                 288649027 3459806579 2595278555 3591618963 3954441987
+                                 2795411107 635462075 2075126771 1117574083 3387954675
+                                 1170386523 1004005395 300531299 3237902115 4202347675
+                                 37305683 2833440771 1919179379 646811291 1827624019
+                                 2211211907 1809186595 480710459 2398503027 2460123459
+                                 3918529843 1275602779 1005759635 2957977315 147197539
+                                 1526671259 3554018003 161141059 1805106803 1086845915
+                                 2002594451 2789240707 2371287203 179893307 2036446451
+                                 902656451 2243024627 578326363 318297107 3220682723
+                                 3099528995 3100592155 459892563 3788686595 3100267251
+                                 2840693403 1696124499 2584878723 596930467 3019867451
+                                 4014180851 2962592451 374910771 2514348507 4245680403
+                                 2364147939 1061523555 589363611 1665530963 2522028867
+                                 4269038451 341752283 1840575379 2010112259 2459457699
+                                 2333554107 4030684915 331220163 3871397875 94986331
+                                 2254453267 489847395 1615960355 77126299 4161249363
+                                 357589507 349781107 3129927579 1888909395 102437763
+                                 2199388451 3940009531 398015091 2104182595 1212250163
+                                 725475163 480749203 969652963 477689187 1444105627
+                                 3204351187 1129714755 950901619 1763864539 3908066707
+                                 2106547587 3499237795 130510907 732518131 3027677635
+                                 2795082227 2181395547 1370759955 220726243 2816735779
+                                 1561605147 4031587155 3533030915 3997623539 4071624859
+                                 2167370067 9519235 2673123747 1199309115 4159317491
+                                 2739989699 2835792179 127079899 38735635 2230042083
+                                 3250868323 2452258459 390647379 1015208259 1792023923
+                                 375329499 2679826323 1870517507 1645564579 2581075387
+                                 2760677363 1531322307 3584105459 2127724123 3385625107
+                                 765068387 2728582435 1236534939 1944265043 729866243
+                                 206192243 1181567643 2864966227 1291007619 675132195
+                                 2981327675 1294333043 2027954499 2831640883 1337438555
+                                 880440979 3694759651 1129785955 2776792987 1698662099
+                                 3352582467 3401018995 571775963 3350296211 2682042243
+                                 2134402211 251656763 1876747507 2612630467 1231415027
+                                 1568409435 1981381651 98583011 1938456355 3005814299
+                                 2459180883 1835321603 1832533235 3725884571 1555061331
+                                 676515971 710882723 3366285627 343705075 3772526275
+                                 2644929331 144781787 263821587 3256945891 1144947811
+                                 3052206491 3186074707 3564018499 1660172659 1902048731
+                                 3588857747 4097295619 1337096867 3293654971 3571172083
+                                 3529383107 2291610611 806881883 2109390355 3574138467
+                                 1246089507 131050139 4137000019 60124163 527001203
+                                 2923279259 1535533139 3709216643 2204964643 3433240123
+                                 3149552755 3904376131 2444389427 1436519259 38423187
+                                 3737301219 1471141219 4260862875 258012883 254208914
+                                 1611748600 95734782 3211656364 449044986 1801094080
+                                 225952150 1415870628 295645058 2689973288 2905519086
+                                 2157422428 1203981066 3371579344 2303048678 3814367028
+                                 82394930 142161304 2566620574 1655289740 3959634778
+                                 3417184416 3951811574 27678660 3463048802 4023863176
+                                 135659982 411565564 200718890 3904283120 2161645958
+                                 2081684884 3631545042 3353837496 1283806910 3061306092
+                                 4058179898 3253000960 3354455126 164738276 995256642
+                                 4162129768 3282642478 2823953820 486014794 3981554704
+                                 3010966694 1547619060 333105138 152541400 3787144926
+                                 94564940 2117437210 1043295072 3557960246 2147450756
+                                 3138738082 1426281288 819086222 1734268604 4121400554
+                                 1501917616 1878065862 1296502740 3099505426 3239302776
+                                 2942065022 1575340076 1984602490 2555075392 2203097110
+                                 2247028260 1689661442 25676968 1598625134 2600640732
+                                 1489666954 3677740368 998233958 2954420404 2631909042
+                                 3830762520 1145535006 4272002316 2412057818 1832176672
+                                 3687956854 3386152260 189702626 1285390856 2370513230
+                                 3918121852 3619909290 3750385008 2528785926 2585406996
+                                 3482371922 3494283320 901567294 2159384428 2454283706
+                                 3529700224 996806102 3911702884 162774722 3068766440
+                                 4038562478 1763077148 1035595466 1177449616 2636454182
+                                 3066828148 483400818 3345254488 86448222 1548443340
+                                 1775845274 1892197856 914726582 2945403396 1952327202
+                                 2172654280 1220474894 753465660 2029588586 2164836400
+                                 2844336710 387824980 899543698 824485368 4162397950
+                                 3270921644 3820444922 2238416064 1616237206 3648630180
+                                 2701051010 1141834536 1431481070 3834268252 2084171786
+                                 3032136912 211444454 2929980980 1207031858 2747671704
+                                 2945637534 3935795340 2601341018 4233852320 1166479094
+                                 4196391108 2691759458 1227010696 4028863182 3603938556
+                                 1690461482 3722690288 3808459910 622289556 2487933906
+                                 1615613624 2646302654 912121324 1613687354 2761255424
+                                 612568406 782990308 2182376002 1405604121)).
+
+Iteration 1.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 2.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 3.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 4.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 5.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 6.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 7.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 8.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 9.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 10.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 11.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 12.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 13.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 14.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 15.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 16.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 17.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 18.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 19.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 20.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 21.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 22.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 23.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 24.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 25.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 26.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 27.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 28.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 29.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 30.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 31.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 32.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 33.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 34.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 35.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 36.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 37.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+
+Iteration 38.
+Population = 0.
+Pareto has 0 members.
+Pareto changed by 0.
+   The ave. pareto values are NIL.
+   The best pareto values are NIL.
+Good has 0 members.
+   The radius is NIL.
+Poor has 0 members.
+Todo has 0 members.
+Taboo has 0 members.
+

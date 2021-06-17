@@ -1,0 +1,5 @@
+;;; Coupler.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((angle lengtha lengthb lengthc) (cost wgt eff))
+

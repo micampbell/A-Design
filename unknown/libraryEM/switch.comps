@@ -1,0 +1,4 @@
+;;; Switch.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((DATA1 DATA2 DATA3) (cost wgt eff))

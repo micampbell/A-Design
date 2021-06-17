@@ -1,0 +1,22 @@
+((0.1 1.0) (1000.0 1000.0))
+;;; Tank.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((diameter density) (cost wgt eff))
+
+(imag-tank-1	(1e-2 1000.0)	(0.75 0.1 0.99))
+(imag-tank-2	(2e-2 1000.0)	(1.50 0.3 0.99))
+(imag-tank-3	(4e-2 1000.0)	(2.75 0.6 0.99))
+(imag-tank-4	(8e-2 1000.0)	(3.75 0.9 0.99))
+(imag-tank-5	(1e-1 1000.0)	(4.75 1.0 0.99))
+(imag-tank-6	(2e-1 1000.0)	(7.75 1.5 0.99))
+(imag-tank-7	(4e-1 1000.0)	(12.75 2.5 0.99))
+(imag-tank-8	(8e-1 1000.0)	(20.75 5.0 0.99))
+(imag-tank-9	(1.0 1000.0)	(30.75 8.0 0.99))
+(imag-tank-10	(2.0 1000.0)	(40.75 16.0 0.99))
+(imag-tank-11	(3.0 1000.0)	(50.75 30.0 0.99))
+(imag-tank-12	(4.0 1000.0)	(60.75 40.0 0.99))
+
+
+
+

@@ -1,0 +1,17 @@
+((0.0254 0.0508) (0.00635 0.00635) (0.00318 0.00318))
+;;; Pulley.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (radius shaft-dia groove-dia) (cost wgt eff tolerances))
+
+;;; The following 7 pulleys are from the Nordex catalog 1983 p. 136
+;;; All sizes are metric in meters.
+(Pulley-FBS-A1-11	(12.7e-3 6.35e-3 3.18e-3)	(4.47 4e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-12	(19.1e-3 6.35e-3 3.18e-3)	(4.86 12e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-13	(25.4e-3 6.35e-3 3.18e-3)	(5.51 16e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-14	(38.1e-3 6.35e-3 3.18e-3)	(6.70 48e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-15	(50.8e-3 6.35e-3 3.18e-3)	(11.08 64e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-16	(63.5e-3 6.35e-3 3.18e-3)	(12.28 100e-3 0.99 5.08e-5 1.27e-5))
+(Pulley-FBS-A1-17	(76.2e-3 6.35e-3 3.18e-3)	(17.36 192e-3 0.99 5.08e-5 1.27e-5))
+
+

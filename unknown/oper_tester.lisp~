@@ -1,0 +1,24 @@
+;;; update-coord tester
+
+
+
+
+(defun test (name)
+  (let ((design 
+	 (car (build-scs
+	       (with-open-file (ifile (make-pathname :name name) :direction :input)
+		 (read ifile nil))))))
+    (format t "before...")
+    (print (sc-graph design))
+    (format t "updating coords...")
+    (print 
+     (let* ((fps (sc-graph design)
+	    (connect-fps (list nil nil nil nil (nth 5 fps)))
+	    (eb (sc-embodiments design))
+	    (ebs '(shaft motor bearing)))
+       (update-config eb connect-fps ebs fps)))))
+    (format t "...after")
+    'done)
+
+(load "initweigh")
+

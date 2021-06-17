@@ -1,0 +1,27 @@
+((2.2e-5 2.2e-4) (45 50) (2500000.0 7900000.0))
+;;; Inductor.comps
+;;; This file contains information on inductor components
+;;; and has the format:
+;;; (name (henries Q freq-of-Q) (cost wgt eff))
+
+;;; The following 18 inductors are from the Allied Electronics online catalog p. 135
+;;; All sizes are metric in volts, farads, henrys, amps.
+(Inductor-9250-331	(0.33e-6 46 25e6)	(2.76 1 0.92))
+(Inductor-9250-102	(1e-6 47 25e6)		(2.89 1 0.92))
+(Inductor-9250-222	(2.20e-6 44 7.9e6)	(2.89 1 0.92))
+(Inductor-9250-332	(3.30e-6 44 7.9e6)	(2.89 1 0.92))
+(Inductor-9250-472	(4.70e-6 44 7.9e6)	(2.89 1 0.92))
+(Inductor-9250-103	(10.0e-6 49 7.9e6)	(2.89 1 0.92))
+(Inductor-9250-223	(22.0e-6 45 2.5e6)	(2.89 1 0.92))
+(Inductor-9250-273	(27.0e-6 45 2.5e6)	(2.89 1 0.92))
+(Inductor-9250-473	(47.0e-6 50 2.5e6)	(3.18 1 0.92))
+(Inductor-9250-563	(56.0e-6 50 2.5e6)	(3.18 1 0.92))
+(Inductor-9250-683	(68.0e-6 50 2.5e6)	(3.18 1 0.92))
+(Inductor-9250-104	(100e-6 50 2.5e6)	(3.47 1 0.92))
+(Inductor-9250-224	(220e-6 55 0.79e6)	(3.47 1 0.92))
+(Inductor-9250-334	(330e-6 55 0.79e6)	(3.47 1 0.92))
+(Inductor-9250-474	(470e-6 60 0.79e6)	(3.47 1 0.92))
+(Inductor-9250-105	(1e-3 60 0.79e6)	(3.47 1 0.92))
+(Inductor-9250-225	(2.2e-3 45 0.25e6)	(3.98 1 0.92))
+(Inductor-9250-336	(33e-3 27 0.079e6)	(4.76 1 0.92))
+

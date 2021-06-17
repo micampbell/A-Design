@@ -1,0 +1,20 @@
+((0.005 0.009))
+;;; Piston.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (diameter) (cost wgt eff))
+
+(imag-piston-1	(1e-3)	(1.75 2e-3 0.98))
+(imag-piston-2	(2e-3)	(2.95 4e-3 0.98))
+(imag-piston-3	(3e-3)	(3.25 6e-3 0.97))
+(imag-piston-4	(4e-3)	(5.75 9e-3 0.97))
+(imag-piston-5	(5e-3)	(7.55 1e-2 0.97))
+(imag-piston-6	(6e-3)	(8.75 0.05 0.97))
+(imag-piston-7	(7e-3)	(10.75 0.08 0.96))
+(imag-piston-8	(8e-3)	(14.95 0.1 0.96))
+(imag-piston-9	(9e-3)	(18.75 0.2 0.96))
+(imag-piston-10	(1e-2)	(24.00 0.3 0.94))
+(imag-piston-11	(12e-3)	(27.00 0.5 0.94))
+(imag-piston-12	(15e-3)	(30.00 1.0 0.92))
+
+

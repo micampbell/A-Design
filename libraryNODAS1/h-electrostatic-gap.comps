@@ -1,0 +1,22 @@
+((1.9999999e-6 1.9999999e-6) (1.0e-5 1.0e-5) (3.9999998e-6 5.0e-6) (1.9999999e-6 1.9999999e-6) (12 24))
+;;; H-Electrostatic-gap.comps
+;;; This file contains information on h-beam components
+;;; and has the format:
+;;; (name (finger_width finger_length overlap gap rotor_fingers)
+
+(H-ES-Gap-1		(2.0e-6 5.0e-6 2.0e-6 2.0e-6 4) 	(20))
+(H-ES-Gap-1		(2.0e-6 5.0e-6 3.0e-6 2.0e-6 12)	(20))
+(H-ES-Gap-1		(2.0e-6 5.0e-6 3.0e-6 2.0e-6 24)	(20))
+(H-ES-Gap-1		(2.0e-6 10.0e-6 5.0e-6 2.0e-6 4)	(20))
+(H-ES-Gap-1		(2.0e-6 10.0e-6 4.0e-6 2.0e-6 12)	(20))
+(H-ES-Gap-1		(2.0e-6 10.0e-6 6.0e-6 2.0e-6 12)	(20))
+(H-ES-Gap-1		(2.0e-6 10.0e-6 4.0e-6 2.0e-6 24)	(20))
+(H-ES-Gap-1		(2.0e-6 10.0e-6 6.0e-6 2.0e-6 24)	(20))
+(H-ES-Gap-1		(2.0e-6 15.0e-6 5.0e-6 2.0e-6 12)	(20))
+(H-ES-Gap-1		(2.0e-6 15.0e-6 5.0e-6 2.0e-6 24)	(20))
+
+
+
+
+
+

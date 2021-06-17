@@ -1,0 +1,12 @@
+((3.0e-4 3.9999998e-4) (0.00635 0.00635) (0.0127 0.015875))
+;;; Bearing-rotat.comps
+;;; This file contains information on radial bearings components
+;;; and has the format:
+;;; (name (b d-inner d-outer) (cost wgt eff tolerances))
+
+;;; The following 3 bearings are from the Nordex catalog 1983 p. 15 
+;;; All sizes are metric in meters.
+(Bearing-ABS-A2-19	(0.0004 6.35e-3 9.525e-3)	(6.99 12e-3 0.99))
+(Bearing-ABS-A2-21	(0.0003 6.35e-3 12.7e-3)	(6.47 20e-3 0.99))
+(Bearing-ABS-A2-23	(0.0002 6.35e-3 15.875e-3)	(7.21 30e-3 0.99))
+

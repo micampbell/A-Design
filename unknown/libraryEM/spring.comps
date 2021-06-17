@@ -1,0 +1,26 @@
+((753.1 2557) (0.00158 0.00476) (0.0127 0.0191) (3.05e-4 6.5999997e-4))
+;;; Spring.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (k o-dia length wire-dia) (cost wgt eff))
+
+;;; The following n springs are from the Nordex catalog 1983 p. 120
+;;; All sizes are metric in meters.
+(Spring-ERS-A1-1 	(753.1 1.58e-3 6.35e-3 0.203e-3) (0.89 2e-3 0.98))
+(Spring-ERS-A1-2 	(350.26 1.58e-3 12.7e-3 0.203e-3) (0.89 4e-3 0.98))
+(Spring-ERS-A1-3 	(753.1 2.38e-3 6.35e-3 0.254e-3) (0.89 3e-3 0.98))
+(Spring-ERS-A1-4 	(367.7 1.58e-3 12.7e-3 0.254e-3) (0.89 5e-3 0.98))
+(Spring-ERS-A1-5 	(980.73 1.58e-3 9.53e-3 0.305e-3) (0.89 5e-3 0.98))
+(Spring-ERS-A1-6 	(437.8 1.58e-3 19.1e-3 0.305e-3) (0.89 6e-3 0.98))
+(Spring-ERS-A1-7 	(2557 3.17e-3 6.35e-3 0.406e-3) (0.78 3e-3 0.98))
+(Spring-ERS-A1-8 	(1243 3.17e-3 12.7e-3 0.406e-3) (0.78 4e-3 0.98))
+(Spring-ERS-A1-23 	(3940 4.76e-3 12.7e-3 0.660e-3) (0.78 7e-3 0.98))
+(Spring-ERS-A1-24 	(1786 4.76e-3 25.4e-3 0.660e-3) (0.78 8e-3 0.98))
+(Spring-ERS-A1-25 	(3940 4.76e-3 19.1e-3 0.737e-3) (0.93 7e-3 0.98))
+(Spring-ERS-A1-26 	(1874 4.76e-3 38.1e-3 0.737e-3) (0.93 12e-3 0.98))
+(Spring-ERS-A1-35 	(5727 6.35e-3 25.4e-3 1.016e-3) (0.93 12e-3 0.98))
+(Spring-ERS-A1-36 	(2902 6.35e-3 50.8e-3 1.016e-3) (0.93 24e-3 0.98))
+
+
+
+

@@ -1,0 +1,18 @@
+((0.0287 0.043) (0.00635 0.00635) (24 36) (0.00375 0.00375))
+;;; Sprocket.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((dia shaft-dia teeth pitch) (cost wgt eff))
+
+;;; The following 7 sprockets are from the Nordex catalog 1983 p. 142 
+;;; All sizes are metric in meters.
+(Sprocket-FDS-A3-16	(19.2e-3 6.35e-3 16 3.75e-3)	(6.68 5e-3 0.99))
+(Sprocket-FDS-A3-20	(23.9e-3 6.35e-3 20 3.75e-3)	(7.29 9e-3 0.99))
+(Sprocket-FDS-A3-24	(28.7e-3 6.35e-3 24 3.75e-3)	(7.74 12e-3 0.99))
+(Sprocket-FDS-A3-28	(33.4e-3 6.35e-3 28 3.75e-3)	(8.11 15e-3 0.99))
+(Sprocket-FDS-A3-32	(39.2e-3 6.35e-3 32 3.75e-3)	(8.71 20e-3 0.99))
+(Sprocket-FDS-A3-36	(43.0e-3 6.35e-3 36 3.75e-3)	(9.50 24e-3 0.99))
+(Sprocket-FDS-A3-40	(47.8e-3 6.35e-3 40 3.75e-3)	(10.92 30e-3 0.99))
+(Sprocket-FDS-A3-44	(52.5e-3 6.35e-3 44 3.75e-3)	(11.40 35e-3 0.99))
+
+

@@ -1,0 +1,18 @@
+((3.0e-4 4.0e-4) (0.00635 0.00635) (0.0127 0.015875))
+;;; Bearing-rotat.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (d-inner d-outer b) (cost wgt eff))
+;;; The following 3 bearings are from the Nordex catalog 1983 p. 15 
+;;; All sizes are metric in meters.
+(Bearing-ABS-A2-19	(4.0e-4 0.00635 0.009525)	(6.99 12e-3 0.99))
+(Bearing-ABS-A2-21	(3.0e-4 0.00635 0.0127)		(6.47 20e-3 0.99))
+(Bearing-ABS-A2-23	(2.0e-4 0.00635 0.015875)	(7.21 30e-3 0.99))
+
+
+
+
+
+
+
+

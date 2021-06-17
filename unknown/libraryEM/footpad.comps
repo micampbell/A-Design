@@ -1,0 +1,18 @@
+((0 0))
+;;; Footpad.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name () (cost wgt eff))
+
+(imag-footpad-1	(0) (1.50 10e-2 0.99))
+
+
+
+
+
+
+
+
+
+
+

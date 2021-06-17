@@ -1,0 +1,6 @@
+with source file, evaluate.c, type:
+
+cc -c -K pic evaluate.c
+ld -G -o evaluate.so evaluate.o
+
+if you move the file you must re-compile! (I think.)

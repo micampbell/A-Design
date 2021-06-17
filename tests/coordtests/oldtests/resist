@@ -1,0 +1,13 @@
+((((goal-met (i)) bound 100 bound 
+	 Nil Nil Nil Nil Nil Nil 
+	 ((0 0) goal))
+  (bound bound bound bound 
+	 Nil Nil Nil Nil Nil Nil 
+	 ((1 0) (0 1)))
+  (bound 0 0 0
+	 Nil Nil Nil Nil Nil Nil 
+	 ((1 1) ground)))
+ Nil
+ (resistor resistor resistor)
+ Nil Nil Nil Nil Nil)
+

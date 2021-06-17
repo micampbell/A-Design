@@ -1,0 +1,15 @@
+((0.599 1.049) (0.00375 0.00375))
+;;; chain.comps
+;;; This file contains information on chain components
+;;; and has the format:
+;;; (name (length pitch) (cost wgt eff))
+
+;;; The following 6 belts are from the Nordex catalog 1983 p. 138
+;;; All sizes are metric in meters.
+(Chain-FCS-A1-4		(0.150 3.75e-3)	(7.38 6.7e-3 0.99))
+(Chain-FCS-A1-10	(0.375 3.75e-3)	(16.98 16.7e-3 0.99))
+(Chain-FCS-A1-16	(0.599 3.75e-3)	(26.58 26.7e-3 0.99))
+(Chain-FCS-A1-22	(0.824 3.75e-3)	(36.18 36.7e-3 0.99))
+(Chain-FCS-A1-28	(1.049 3.75e-3)	(45.78 46.8e-3 0.99))
+(Chain-FCS-A1-34	(1.274 3.75e-3)	(55.38 56.9e-3 0.99))
+

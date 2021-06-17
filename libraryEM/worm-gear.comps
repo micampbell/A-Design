@@ -1,0 +1,11 @@
+((64.0 64.0) (0.0127 0.0127) (0.06254 0.12537))
+;;; Worm-gear.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (pitch dia angle) (cost wgt eff))
+;;; The following 3 worm gears are from the Nordex catalog 1983 p. 247
+;;; All sizes are metric in meters.
+(Worm-KCS-A4-3	(64.0 12.7e-3 0.03113)	(9.60 12e-3 0.97))
+(Worm-KCS-A5-3	(64.0 12.7e-3 0.06254)	(10.20 12e-3 0.97))
+(Worm-KCS-A6-3	(64.0 12.7e-3 0.12537)	(12.65 12e-3 0.97))
+

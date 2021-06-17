@@ -1,0 +1,18 @@
+(((NIL 0 0 0 POWER ROTAT NIL NIL SHAFT SINK ((5 0) (6 1) 
+					       GROUND))
+    (bound bound bound bound POWER TRANS (0 -1 0) (0 0 0) CABLE SOURCE 
+	   ((4 0) (5 1))) 
+    (bound bound bound bound POWER TRANS (0 -1 0) (0 0 0) CABLE SOURCE 
+	   ((6 0) (2 0))) 
+    ((0 200.0) bound  bound bound POWER TRANS (0 -1 0) (0 0 0) CABLE SOURCE
+     ((0 0) GOAL))
+    (bound bound bound bound POWER TRANS (0 -1 0) (0 0 0) CABLE SOURCE
+	   ((0 1) (1 0)))
+    (bound bound bound bound POWER TRANS (0 -1 0) (0 0 0) CABLE SOURCE 
+	   ((1 1) (3 0))) 
+    (bound bound bound (goal-met (0 100)) POWER TRANS (0 -1 0) (0 0 0) 
+	   CABLE SOURCE
+	   ((3 1) (4 1) (2 1) goal)))
+		nil
+(rack gear damper-trans shaft spring spring spring))
+

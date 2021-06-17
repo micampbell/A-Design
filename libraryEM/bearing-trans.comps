@@ -1,0 +1,11 @@
+((1.0e-4 1.0e-4) (0.00635 0.00635) (0.0127 0.0127))
+;;; Bearing-trans.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((d-inner d-outer b) (cost wgt eff))
+;;; The following linear bearing are from the Nordex catalog 1983 p. 27
+;;; All sizes are metric in meters.
+(Lin-bearing-ABS-L1-4	(1.0e-4 0.00635 0.0127)	(10.47 28e-3 0.99))
+
+
+

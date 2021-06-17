@@ -1,0 +1,19 @@
+((0.00635 0.00635) (89.525 358.1) (0.002 0.002))
+;;; Potentiometer.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (shaft-dia resist-rate) (cost wgt eff))
+
+;;; The following 7 potentiometers are from the Allied Electronics 
+;;; online catalog p. 407
+;;; All sizes are metric in volts, farads, henrys, amps.
+(Pot-522-16100	(6.35e-3 17.905 0.002)	(17.18 6e-3 0.45))
+(Pot-522-16200	(6.35e-3 35.810 0.002)	(17.18 6e-3 0.45))
+(Pot-522-16500	(6.35e-3 89.525 0.002)	(17.18 6e-3 0.45))
+(Pot-522-161K	(6.35e-3 179.05 0.002)	(17.18 6e-3 0.45))
+(Pot-522-162K	(6.35e-3 358.10 0.002)	(17.18 6e-3 0.45))
+(Pot-522-165K	(6.35e-3 895.25 0.002)	(17.18 6e-3 0.45))
+(Pot-522-1610K	(6.35e-3 1790.5 0.002)	(17.18 6e-3 0.45))
+
+
+

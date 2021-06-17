@@ -1,0 +1,13 @@
+((0.0508 0.08255))
+;;; Cyliner.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name (diameter) (cost wgt eff))
+
+(Cyl-62205K71	(0.0381)	(198.63 0.2 0.98))
+(Cyl-62205K73	(0.0508)	(235.85 0.4 0.98))
+(Cyl-62205K75	(0.0635)	(265.74 0.6 0.97))
+(Cyl-62205K77	(0.08255)	(368.49 0.9 0.97))
+(Cyl-62205K79	(0.1016)	(460.97 1.0 0.97))
+
+

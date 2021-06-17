@@ -1,0 +1,25 @@
+((0.0238 0.0508) (0.00635 0.00635) (60 128) (64 64))
+;;; Gear.comps
+;;; This file contains information on gear components
+;;; and has the format:
+;;; (name (dia shaft-dia teeth pitch) (cost wgt eff))
+
+;;; The following 11 gears are from the Nordex catalog 1983 p. 286
+;;; All sizes are metric in meters.
+(Gear-LAS-F7-28		(11.1e-3 6.35e-3 28 64)		(5.75 5e-3 0.98))
+(Gear-LAS-F7-36		(14.2e-3 6.35e-3 36 64)		(6.29 10e-3 0.98))
+(Gear-LAS-F7-46		(18.3e-3 6.35e-3 46 64)		(6.66 14e-3 0.98))
+(Gear-LAS-F7-60		(23.8e-3 6.35e-3 60 64)		(7.54 65e-3 0.98))
+(Gear-LAS-F7-75		(29.8e-3 6.35e-3 75 64)		(8.18 17e-3 0.98))
+(Gear-LAS-F7-90		(35.7e-3 6.35e-3 90 64)		(9.40 22e-3 0.98))
+(Gear-LAS-F7-104	(41.3e-3 6.35e-3 104 64)	(10.26 25e-3 0.98))
+(Gear-LAS-F7-128	(50.8e-3 6.35e-3 128 64)	(12.03 33e-3 0.98))
+(Gear-LAS-F7-168	(66.7e-3 6.35e-3 168 64)	(15.69 35e-3 0.98))
+(Gear-LAS-F7-208	(82.6e-3 6.35e-3 208 64)	(21.99 45e-3 0.98))
+(Gear-LAS-F7-248	(98.4e-3 6.35e-3 248 64)	(24.74 50e-3 0.98))
+
+
+
+
+
+

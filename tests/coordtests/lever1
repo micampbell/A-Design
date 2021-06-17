@@ -1,0 +1,13 @@
+
+(((
+(nil nil nil nil nil nil nil ((0 0)))
+(nil nil nil nil nil nil nil ((0 1) (1 1)))
+(nil nil nil nil nil nil nil ((1 0)))
+(nil nil nil nil ((1 0 0 0) (0 1 0 0) (0 0 1 0) (0 0 0 1)) NIL SOURCE ((0 0) GOAL)))
+nil
+(lever1stclass  spring)
+nil 
+nil
+nil 
+nil 
+nil))

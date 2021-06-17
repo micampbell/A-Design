@@ -1,0 +1,10 @@
+((0.01 1.2) (1.0 8.0) (0.0015 0.5) (0.03 0.1) (0.004 0.01))
+;;; Motor.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((Ke R L D J) (cost wgt eff))
+
+(imag-motor-1	(1e-2 1e0 5e-1 1e-1 1e-2)	(0.45 1e-3 0.8))
+(imag-motor-2	(1.2e0 8e0 1.5e-3 3e-2 4e-3)	(3.05 1e-2 0.8))
+
+

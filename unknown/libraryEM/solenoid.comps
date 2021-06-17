@@ -1,0 +1,11 @@
+((0.01 1.2) (1.0 8.0) (0.0015 0.5) (0.03 0.1))
+;;; Solenoid.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((DATA1 DATA2 DATA3) (cost wgt eff))
+
+(imag-solenoid-1	(1e-2 1e0 5e-1 1e-1)	(0.45 1e-3 0.8))
+(imag-solenoid-2	(1.2e0 8e0 1.5e-3 3e-2)	(3.05 1e-2 0.8))
+
+
+

@@ -1,0 +1,21 @@
+((0.001 0.001) (0.003 0.007))
+;;; Lever1stclass.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((lengtha lengthb) (cost wgt eff))
+
+(imag-lever1st-1	(1e-3 1e-3)	(1.00 1e-3 0.95))
+(imag-lever1st-2	(1e-3 2e-3)	(1.05 1e-3 0.95))
+(imag-lever1st-3	(1e-3 3e-3)	(1.10 1e-3 0.95))
+(imag-lever1st-4	(1e-3 4e-3)	(1.15 1e-3 0.95))
+(imag-lever1st-5	(1e-3 5e-3)	(1.20 1e-3 0.95))
+(imag-lever1st-6	(1e-3 6e-3)	(1.25 1e-3 0.95))
+(imag-lever1st-7	(1e-3 7e-3)	(1.30 1e-3 0.94))
+(imag-lever1st-8	(1e-3 8e-3)	(1.35 1e-3 0.94))
+(imag-lever1st-9	(1e-3 9e-3)	(1.40 1e-3 0.94))
+(imag-lever1st-10	(1e-3 1e-2)	(1.45 1e-3 0.93))
+(imag-lever1st-11	(1e-3 1.2e-3)	(1.50 1e-3 0.93))
+(imag-lever1st-12	(1e-3 1.5e-3)	(1.60 1e-3 0.93))
+
+
+

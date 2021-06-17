@@ -1,0 +1,16 @@
+((6.0 12.0))
+;;; Battery.comps
+;;; This file contains information about actual components
+;;; and has the format:
+;;; (name ((step) (cost wgt eff))
+
+(imag-battery-1	(1.5)	(0.15 1e-3 0.8))
+(imag-battery-2	(3.0)	(0.45 1e-2 0.8))
+(imag-battery-3	(6.0)	(0.75 3e-2 0.8))
+(imag-battery-4	(9.0)	(1.05 6e-2 0.8))
+(imag-battery-5	(12.0)	(3.10 1e-1 0.8))
+(imag-battery-6	(18.0)	(9.10 3e-1 0.8))
+
+
+
+
